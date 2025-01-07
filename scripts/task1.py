@@ -6,7 +6,7 @@ from pymongo import MongoClient
 # MongoDB Atlas connection URI
 # Replace <username>, <password>, and <cluster-address> with your MongoDB Atlas credentials
 # MONGO_URI = "mongodb+srv://<username>:<password>@<cluster-address>.mongodb.net/?retryWrites=true&w=majority"
-MONGO_URI = "mongodb://100.69.147.87:27017/"
+MONGO_URI = "mongodb://192.168.0.201:27017/"
 
 # Function to fetch weather data from the URL
 def fetch_weather_data(url: str):
