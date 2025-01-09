@@ -1,5 +1,4 @@
-# Use the official Python image as the base
-#FROM python:3.13-slim
+# Use a Python image as the base
 FROM python:3.13-alpine
 
 # Set the working directory

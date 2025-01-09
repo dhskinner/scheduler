@@ -2,3 +2,4 @@ schedule
 requests
 pymongo
 python-dotenv
+beautifulsoup4
